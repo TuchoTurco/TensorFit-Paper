@@ -33,3 +33,9 @@ Optional flag: `--cpu`, to force the fitting to run on CPU when a GPU is availab
 To run a benchmark on accuracy, use the `test_acc_simulated_data.py` script. It will compute the accuracy for both TensorFit and TDFDFit on the simulated dataset.
 
 `python test_acc_simulated_data.py -i <simulation filename> --size <number of spectra to fit>`
+
+## Citation:
+
+If you find this repository useful for your research or work, please cite: 
+
+**Turco F, Capiglioni M, Weng G, Slotboom J. TensorFit: A torch-based tool for ultrafast metabolite fitting of large MRSI data sets. Magn Reson Med. Published online March 12, 2024. doi:10.1002/mrm.30084**
